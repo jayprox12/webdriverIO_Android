@@ -1,8 +1,8 @@
-# webdriverIO_appleDroid - Android & iOS testing appand suite
+# webdriverIO_appleDroid - Android & iOS testing app and suite
 
-Using Appium and WebdriverIO to build tests for Android and iOS apps. 
+Using Appium and WebdriverIO to build tests for Android and iOS apps. Created this test by using sample apps by following a tutorial from Dilpreet Johal in the Udemy course: Mobile Automation with Appium 2.0.
 
-Before we begin, you will need to have the following installed: Node.js, Java JDK, Appium Inspector, Android Studio (for Android), Xcode (for iOS). (Created this test by using sample apps by following a tutorial from Dilpreet Johal in the Udemy course: Mobile Automation with Appium 2.0)
+Before we begin, you will need to have the following installed: Node.js, Java JDK, Appium Inspector, Android Studio (for Android), Xcode (for iOS).
 
 
 Installing Node.js:
