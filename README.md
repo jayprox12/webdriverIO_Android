@@ -1,8 +1,10 @@
-# webdriverIO_Android - Android testing app and suite
+# webdriverIO_Android - Android testing suite
 
-Using Appium and WebdriverIO to build tests for Android apps. Created this test by using sample apps by following a tutorial from Dilpreet Johal in the Udemy course: Mobile Automation with Appium 2.0.
+Using Appium and WebdriverIO to build tests for Android apps. Created this test by following a tutorial from Dilpreet Johal in the Udemy course: Mobile Automation with Appium 2.0.
 
 Before we begin, you will need to have the following installed: Node.js, Java JDK, Appium Inspector, Android Studio.
+
+The app being tested in the Paramount+ app. This is on-going and more tests will be added. The apk can be found here, and will need to be downloaded: https://drive.google.com/file/d/1tm7bNLAJMSzjWltebp_dI_2tO4iL4wZ3/view?usp=sharing
 
 
 ## Installations
@@ -136,6 +138,8 @@ Before running the tests using the provided files, be sure the following is done
 - Java JDK installation and setup
 - Android Studio installation and setup
 - Appium setup
+- Download apk from here: https://drive.google.com/file/d/1tm7bNLAJMSzjWltebp_dI_2tO4iL4wZ3/view?usp=sharing
+- Place the downloaded apk in the app folder
 
 ### WebdriverIO Config Setup:
 1. Open wdio.conf
@@ -144,7 +148,7 @@ Before running the tests using the provided files, be sure the following is done
 - "appium:platformVersion": "{versionNumber}", //(11.0)
 - "appium:deviceName": "{deviceName}", //(Pixel 3)
 - "appium:automationName": "{automationName}", //(UIAutomator2)
-- "appium:app": path.join(process.cwd(), "{appPath}") //(app/android/{appName}.apk)
+- "appium:app": path.join(process.cwd(), "{appPath}") //(app/{appName}.apk)
 3. Create a test folder
 4. Under that test folder, create a spec folder (ex. test/spec)
 5. NOTE: When using a real device, update the conf file by removing or commenting out the follwing lines:
@@ -153,7 +157,9 @@ Before running the tests using the provided files, be sure the following is done
 
 
 ### Test Run:
-1. In the Terminal, go to the main directory. Where the wdio.conf file is
-2. Enter: npx wdio
-3. Verify the tests run
-4. Verify tests were successful
+1. In the Terminal, go to the main directory
+2. Enter: npm install
+3. Verify the installation completes
+4. In the Terminal, enter: npx wdio
+5. Verify the tests run
+6. Verify tests were successful
