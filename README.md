@@ -1,6 +1,6 @@
-# webdriverIO_Android - Android testing app and suite
+# webdriverIO_Android - Android testing suite
 
-Using Appium and WebdriverIO to build tests for Android apps. Created this test by using sample apps by following a tutorial from Dilpreet Johal in the Udemy course: Mobile Automation with Appium 2.0.
+Using Appium and WebdriverIO to build tests for Android apps. Created this test by following a tutorial from Dilpreet Johal in the Udemy course: Mobile Automation with Appium 2.0.
 
 Before we begin, you will need to have the following installed: Node.js, Java JDK, Appium Inspector, Android Studio.
 
@@ -153,7 +153,9 @@ Before running the tests using the provided files, be sure the following is done
 
 
 ### Test Run:
-1. In the Terminal, go to the main directory. Where the wdio.conf file is
-2. Enter: npx wdio
-3. Verify the tests run
-4. Verify tests were successful
+1. In the Terminal, go to the main directory
+2. Enter: npm install
+3. Verify the installation completes
+4. In the Terminal, enter: npx wdio
+5. Verify the tests run
+6. Verify tests were successful
