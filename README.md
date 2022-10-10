@@ -4,8 +4,9 @@ Using Appium and WebdriverIO to build tests for Android apps. Created this test 
 
 Before we begin, you will need to have the following installed: Node.js, Java JDK, Appium Inspector, Android Studio.
 
-The app being tested in the Paramount+ app. This is on-going and more tests will be added. The apk can be found here, and will need to be downloaded: https://drive.google.com/file/d/1tm7bNLAJMSzjWltebp_dI_2tO4iL4wZ3/view?usp=sharing
+The app being tested is a demo app from Sauce Labs. This is an on-going project and will be continually updated.
 
+UIAutomator Documentation: https://developer.android.com/reference/androidx/test/uiautomator/package-summary.html
 
 ## Installations
 
