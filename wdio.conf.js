@@ -60,7 +60,7 @@ exports.config = {
         "appium:platformVersion": device_capabilities.platformVersion,
         "appium:deviceName": device_capabilities.deviceName,
         "appium:automationName": "UIAutomator2",
-        "appium:app": path.join(process.cwd(), "./app/paramountPlus.apk")
+        "appium:app": path.join(process.cwd(), "./app/MyDemoAppRN.1.3.0.build-244.apk")
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
